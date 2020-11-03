@@ -255,18 +255,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* color del boton de rayas*/
 .mobile-nav-toggle i {
-  color: #2b9348;
+  color: #1b4332;
 }
 
 .mobile-nav {
   position: fixed;
   top: 55px;
   right: 25px;
-  bottom: 15px;
-  left: 15px;
+  left: 70px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
+  background: #d8f3dc;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -459,9 +458,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section {
-  padding: 60px 0;
-}
+
 
 .section-bg {
   background-color: white;
@@ -487,7 +484,7 @@ section {
 }
 
 .section-title h3 {
-  margin: 15px 0 0 0;
+ 
   font-size: 32px;
   font-weight: 700;
   color:black
@@ -836,6 +833,19 @@ section {
   opacity: 1;
   bottom: 0;
 }
+.video_you
+{ 
+  text-align: center;
+  width: 100%;
+}
+
+.video{
+  display: inline-block;
+  width: 80%;
+  height: 400px;
+}  
+  
+
 
 /*--------------------------------------------------------------
 # Pricing
